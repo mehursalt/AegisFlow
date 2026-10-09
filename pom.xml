@@ -4,26 +4,26 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>blossom.project</groupId>
-    <artifactId>BlossomGateway</artifactId>
+    <groupId>io.aegisflow</groupId>
+    <artifactId>AegisFlow</artifactId>
     <version>1.0</version>
     <name>AegisFlow</name>
     <!-- 确保这里是 "pom" -->
     <packaging>pom</packaging>
 
     <modules>
-        <module>BlossomGateway-Access</module>
-        <module>BlossomGateway-Access-Consumer</module>
-        <module>BlossomGateway-Core</module>
-        <module>BlossomGateway-Common</module>
-        <module>BlossomGateway-Client</module>
-        <module>BlossomGateway-Dubbo</module>
-        <module>BlossomGateway-Http</module>
-        <module>BlossomGateway-Config-Center</module>
-        <module>BlossomGateway-Register-Center</module>
-        <module>BlossomRPC-Core</module>
-        <module>BlossomRPC-Server</module>
-        <module>BlossomRPC-Client</module>
+        <module>AegisFlow-Access</module>
+        <module>AegisFlow-Access-Consumer</module>
+        <module>AegisFlow-Core</module>
+        <module>AegisFlow-Common</module>
+        <module>AegisFlow-Client</module>
+        <module>AegisFlow-Dubbo</module>
+        <module>AegisFlow-Http</module>
+        <module>AegisFlow-Config-Center</module>
+        <module>AegisFlow-Register-Center</module>
+        <module>AegisRPC-Core</module>
+        <module>AegisRPC-Server</module>
+        <module>AegisRPC-Client</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
