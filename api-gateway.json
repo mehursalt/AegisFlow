@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "id": "http-demo",
+      "name": "HTTP demo",
+      "protocol": "http",
+      "serviceId": "backend-http-server",
+      "prefix": "/http-server",
+      "paths": ["/http-server/ping", "/http-server/ping2"],
+      "maxConcurrentRequests": 0,
+      "retryConfig": {"times": 0},
+      "filterConfigs": [
+        {"id": "load_balance_filter", "config": {"load_balance": "RoundRobin"}}
+      ]
+    }
+  ]
+}
